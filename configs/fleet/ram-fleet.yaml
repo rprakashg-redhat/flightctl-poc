@@ -14,12 +14,14 @@ spec:
         gitRef:  
           repository: flightctl-poc
           targetRevision: main
-          path: configs/containers
+          path: /configs/containers
+      
       containers:
-        matchPatterns:
-        - "getting-started-async"
+        
         
       systemd:
+        matchPatterns:
+        - "getting-started-async.service"
 
       resources:
 
