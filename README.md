@@ -76,3 +76,17 @@ SSH into device
 ```
 ssh -p 2222 rprakashg@localhost
 ```
+
+Build a sample container. Use the quarkus getting-started-async service for this
+
+```sh
+podman build -t getting-started-async -f src/main/docker/Dockerfile.jvm .
+```
+
+Push the image to quay.io
+
+```sh
+
+```
+
+Updated the config to deploy this container to podman on the device

@@ -1,0 +1,15 @@
+[Unit]
+Description=Quarkus Getting Started Async App
+After=local-fs.target
+
+[Service]
+TimeoutSec=300
+
+[Container]
+ContainerName=getting-started-async
+Image=quay.io/rgopinat/getting-started-async:latest
+PublishPort=8080:8080
+
+[Install]
+# Start by default on boot
+WantedBy=multi-user.target default.target

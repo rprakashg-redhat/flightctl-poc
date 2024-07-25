@@ -9,9 +9,16 @@ spec:
   template:
     spec:
       config:
-
+      - name: "getting-started-async"
+        configType: GitConfigProviderSpec
+        gitRef:  
+          repository: flightctl-poc
+          targetRevision: main
+          path: configs/containers
       containers:
-
+        matchPatterns:
+        - "getting-started-async"
+        
       systemd:
 
       resources:
