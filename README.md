@@ -7,7 +7,7 @@ FlightCTL [UI](https://ui.flightctl.poc-01.edge-devices.net/)
 ```yaml
 Credentials: 
     user: poc01
-    pass: NOcK517PW4yw
+    pass: *****
 ```
 
 On MacOS Podman must be running in rootful mode. Follow steps below
