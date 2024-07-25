@@ -25,5 +25,5 @@ spec:
 
       resources:
       - monitorType: "CPU"
-        samsamplingInterval: "60s"
+        samplingInterval: "60s"
 
