@@ -24,4 +24,6 @@ spec:
         - "getting-started-async.service"
 
       resources:
+      - monitorType: "CPU"
+        samsamplingInterval: "60s"
 
