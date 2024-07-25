@@ -8,11 +8,11 @@ spec:
       environment: poc
   template:
     spec:
-      config: {}
+      config:
 
-      containers: {}
+      containers:
 
-      systemd: {}
+      systemd:
 
-      resources: {}
+      resources:
 
